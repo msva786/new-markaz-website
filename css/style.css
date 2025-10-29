@@ -1,0 +1,189 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Define color variables for easy theme changes */
+
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.7;
+}
+
+/* --- Section Styling --- */
+.section-title {
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+}
+
+.py-5 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* --- Navbar --- */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+
+
+.hero-section h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* --- Cards --- */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* --- Buttons --- */
+
+
+/* --- Footer --- */
+footer {
+    background-color: var(--dark-color);
+}
+
+/* --- Donate Section --- */
+.donate-details {
+    padding-left: 0;
+    list-style-type: none;
+}
+.donate-details li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+.donate-details li:first-child {
+    padding-top: 0;
+}
+.donate-details li:last-child {
+    border-bottom: none;
+}
+.donate-details strong {
+    color: var(--dark-color);
+    min-width: 140px;
+    display: inline-block;
+}
+/* --- New Color Palette --- */
+:root {
+    --primary-color: #0056b3;  /* A deep, professional blue */
+    --primary-dark: #004494;   /* A darker shade for hover */
+    --secondary-color: #6c757d; /* Muted text gray */
+    --light-color: #f8f9fa;   /* Light background gray */
+    --dark-color: #343a40;    /* Dark, but not black, text */
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.7;
+    color: var(--dark-color); /* Set default text color */
+}
+
+/* --- Section Styling --- */
+.section-title {
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+}
+
+.py-5 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* --- Navbar --- */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+    height: 80vh;
+    /* We use the new primary color for the overlay */
+    background: linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.7)), url('https://placehold.co/1920x1080?text=Campus+Background') no-repeat center center/cover;
+    position: relative;
+}
+
+.hero-section h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* --- Cards --- */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* --- Buttons --- */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    transform: translateY(-2px); /* Add a subtle lift */
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.upiqr {
+    max-width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
