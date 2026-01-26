@@ -131,7 +131,7 @@ body {
     width: 100%;
     aspect-ratio: 16 / 9;
     background: linear-gradient(rgba(0, 0, 0, 0.384),
-            rgba(0, 0, 0, 0.404)), url('../images/main page .jpeg') no-repeat center center;
+            rgba(0, 0, 0, 0.404)), url('../images/main page.jpeg') no-repeat center center;
     background-size: cover;
     position: relative;
     padding-top: 0;
